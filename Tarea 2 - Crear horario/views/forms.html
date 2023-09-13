@@ -13,27 +13,34 @@
 
 <body>
     <form name="datosBasicos" action="../inicio.html" method="" >
-        <h1>Datos Básicos</h1>
+        <h1><img src="../assets/img/coffee.svg" width="100px">Datos Básicos</h1>
+        
         <label for ="perfil">Describa su perfil:</label>
-            <input id="perfil">
+            <input id="perfil" type="" name="perfil"><br><br>
         <label for ="ident"> Tipo de Identificación:</label>
-            <input id = "ident">
+            <input id = "ident"><br><br>
         <label for ="numI">Número de Identificación:</label>
-            <input id ="numI">
+            <input id ="numI"><br><br>
         <label for ="apellidos" >Apellidos:</label>
-            <input id ="spellidos">
+            <input id ="apellidos" type="text" name="apellidos"><br><br>
         <label for ="nombre">Nombre:</label>
-            <input id ="nombre">
+            <input id ="nombre" type="text" name="nombre"><br><br>
         <label for ="genero">Género</label>
-            <input id = "genero">
+            <input id = "generoF" type="radio" name="generoF">Femenino
+            <input id = "generoM" type="radio" name="generoM">Masculino<br><br>
         <label for="estadoCivil">Estado Civil:</label>
-            <input id ="estadoCivil">
+            <input id = "soltero" type="radio" name="eC" checked>Soltero
+            <input id = "casado" type="radio" name="eC">Casado
+            <input id = "uLibre" type="radio" name="eC">Unión Libre
+            <input id = "viudo" type="radio" name="eC">Viudo<br><br>
         <label for ="telefono">Número de Teléfono:</label>
-            <input id = telefono>
+            <input id = telefono><br><br>
         <label for ="direccion">Dirección de Residencia:</label>
-            <input id ="direccion">
-        <label for =correo> Correo Electrónico:</label>
-            <input id = correo>
+            <input id ="direccion" type="text" name="direccion"><br><br>
+        <label for ="correo"> Correo Electrónico:</label>
+            <input id = "correo"><br><br>
+        <label for ="contraseña"> Contraseña:</label>
+            <input id = "contraseña" type="password"><br><br>
     </form>
 </body>
 </html>
