@@ -1,0 +1,37 @@
+body{
+    margin:50pt;
+}
+
+table{
+    background-color: #15a085;
+    width: 950px;
+    border-style: dashed;
+    border-color: #fcfc34;
+    border-width: 2pt;
+}
+
+p{
+    color:#ffffff;
+    margin-right: 50pt;
+    text-align: justify;
+    margin-bottom: 30pt;
+}
+
+h1{
+    text-align: left;
+    color: #ffffff;
+    margin-left: 50pt;
+    margin-bottom: 0;
+}
+
+span{
+    color:#fcfc34;
+    font-family: sans-serif;
+    font-style: italic;
+}
+
+img{
+    width: 135px;
+    margin-left: 50pt;
+    margin-right: 10pt;
+}

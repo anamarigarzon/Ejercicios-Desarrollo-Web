@@ -49,6 +49,10 @@ th{
     height: 50px;
 }
 
+td{
+    margin-bottom: 200px;
+}
+
 p{
     font-family: 'Mulish', sans-serif;
     text-align: justify;
