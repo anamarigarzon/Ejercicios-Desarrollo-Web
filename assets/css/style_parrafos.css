@@ -1,0 +1,41 @@
+.azul{
+    color:blue;
+    text-align: left;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.morado{
+    color:purple;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.verde{
+    color: green;
+    text-align: right;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+h2{
+    color:navy;
+    text-align: right;
+    font-size: xx-large;
+}
+
+#ali{
+    color:orangered;
+    text-align: left;
+    font-size: xx-large;
+}
+
+.homero{
+    font-style: italic;
+    text-decoration: underline;
+    color: #FCFC34;
+}
+
+.esopo{
+    width: 800px;
+    background-color: #15a085;
+    
+}
