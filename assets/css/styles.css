@@ -17,8 +17,18 @@ body{
     margin-left: 30px;
 }
 
+.titulo h1{
+    transform: translateY(-50px);
+    transition: transform 5s linear 3s;
+}
+
 .titulo img{
     width: 150px;
+}
+
+.titulo img{
+    transform: translate(700px);
+    transition-duration: 5s;
 }
 
 .contenido{
@@ -45,4 +55,70 @@ body{
     float: left;
     margin-right: 20px;
     border-radius: 100%;
+}
+
+.personaje img:hover{
+    transform: rotate(-50deg) scale(1.5);
+}
+
+.cajaprincipal{
+    width: 270px;
+    height: 350 px;
+    background-color: black;
+    color: white;
+    margin: 20px auto;
+    text-align: center;
+    box-shadow: 0px 0px 20px black;
+    overflow: hidden;
+}
+
+.encabezado{
+    background-color: white;
+    font-family: 'Fredoka One',cursive;
+    color:black;
+    padding: 20px 0px;
+}
+
+.cajaperfil{
+    width: 540 px;
+}
+
+.cajaperfil:hover{
+    transform:translateX(-270px);
+    transition: transform 2s linear 1s;
+}
+
+.foto{
+    width:270px;
+    text-align: center;
+    margin:20px 0;
+    float: left;
+}
+
+.foto img{
+    width:150px;
+    border: 5px solid white;
+    border-radius: 50%;
+}
+
+ul{
+    list-style-image: url("../img/lunalista.png");
+    list-style-position: inside;
+}
+
+.boton{
+    width: 120px;
+    background-color: blue;
+    color: white;
+    padding: 20px 20px;
+    border-radius: 10px;
+    text-decoration: None;
+}
+
+.boton:hover{
+    background-color: red;
+    transition-property: background-color;
+    transition-duration: 1s;
+    transition-timing-function: linear;
+    transition-delay: 1s;
 }
